@@ -1,0 +1,30 @@
+body{
+    background: rgb(6, 80, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+ p, span{
+     color: gainsboro;
+     font-size: 30px;
+ }
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+h1{
+    color: goldenrod;
+}
+
+button{
+    border: none;
+    color: rgb(6, 80, 6);
+    background-color: goldenrod;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px 30px;
+    font-size: 20px;
+}
